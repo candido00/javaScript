@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#div_Lamp{
+    float: left;
+
+}
+#div_Int{
+    float: left;
+    height: 100px;
+    margin-top: 60px;
+}
+h1{
+    color: red;
+}
+.container{
+    clear: both;
+}
+#div_Btn{
+    float: left;
+    margin: 100px 0px 100px auto;
+}

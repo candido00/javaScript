@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 10px 10px 10px 10px;
+    font: normal 18pt Arial;
+}
+input{
+    margin-top: 15px;
+    font: normal 18pt Arial;
+    width: 100px;
+}
+div#res{
+    margin-top: 20px;
+}

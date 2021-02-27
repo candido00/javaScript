@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font: normal 18pt Arial;
+    margin: 10px 10px;
+}
+#txtVelo{
+    margin: 0px 5px 9px 3px;
+    float: left;
+    font: normal 13pt Arial;
+    margin-top: 10px;
+    width: 130px;
+    border-radius: 10px;
+    padding: 2px;
+}
+#btnVer{
+    float: left;
+    font: normal 13pt Arial;
+    margin: 9px 9px 9px 3px;
+    width:70px;
+    border-radius:  6px;
+    cursor: pointer;
+    padding: 2px;
+}
+#parag1{
+    float: left;
+    margin: 9px 3px 9px 3px;
+}
+#resul{
+    clear: both;
+    margin-top: 10px;
+
+}
