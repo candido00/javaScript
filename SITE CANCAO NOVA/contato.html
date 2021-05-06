@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Canção Nova</title>
+	<link rel="stylesheet" href="css/estilo.css">
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7fa_ntyynAakB4rJ8BeYrmxHWvBuqON8"></script>
+</head>
+<body>
+	<header class="head">
+		<img src="img/cancao.jpg" class="logo">
+		<nav class="menu">
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="sobre.html">SOBRE</a></li>
+				<li><a href="fotos.html">FOTOS</a></li>
+				<li><a href="contato.html">CONTATO</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="container">
+		<div class="contat">
+
+			<form method="post" name="form">
+			<h1>Contato</h1>
+
+			<input type="text" name="nome" placeholder="Nome"><br>
+			
+			<input type="email" name="email" placeholder="email"><br>
+			
+			<textarea type="textarea" name="descricao" placeholder="mensagem" cols="30" rows="10" ></textarea><br>
+
+			<input type="submit" value="Enviar">		
+	 		</form>
+
+		</div>
+		<div id="mapa"></div>
+	</section>
+	<footer>
+		<address>
+			cancaonova.com © 2002 – 2017 Todos os direitos reservados.
+		</address>
+	</footer>
+	<script src="js/global.js"></script>
+	<script src="js/form.js"></script>
+</body>
+</html>
